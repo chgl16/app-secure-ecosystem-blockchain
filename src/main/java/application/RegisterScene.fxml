@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="loginBackground" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegisterSceneController">
+   <children>
+      <Text fill="#fffbf0" layoutX="343.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="10.0" text="类型：" wrappingWidth="86.30029296875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Group id="1" layoutX="7.0" layoutY="-55.0">
+         <children>
+            <RadioButton fx:id="user" layoutX="650.0" layoutY="201.0" mnemonicParsing="false" text="用 户" textFill="WHITE">
+               <toggleGroup>
+                  <ToggleGroup fx:id="group" />
+               </toggleGroup>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="developer" layoutX="540.0" layoutY="201.0" mnemonicParsing="false" text="开发者" textFill="#fafafa" toggleGroup="$group">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="market" layoutX="438.0" layoutY="201.0" mnemonicParsing="false" selected="true" text="市 场" textFill="#f5f0f0" toggleGroup="$group">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </Group>
+      <TextField fx:id="name" layoutX="448.0" layoutY="326.0" opacity="0.97" prefHeight="25.0" prefWidth="280.0" promptText="请输入昵称" />
+      <TextField fx:id="password" layoutX="448.0" layoutY="415.0" opacity="0.97" prefHeight="25.0" prefWidth="280.0" promptText="请输入密码" />
+      <TextField fx:id="desc" layoutX="448.0" layoutY="510.0" opacity="0.97" prefHeight="25.0" prefWidth="280.0" promptText="请输入描述" />
+      <Button id="button" fx:id="RSregister" layoutX="303.0" layoutY="642.0" mnemonicParsing="false" onMouseClicked="#Regist" prefHeight="42.0" prefWidth="198.0" text="注      册" textFill="#529a25" />
+      <Button id="button" fx:id="RSreturn" layoutX="690.0" layoutY="642.0" mnemonicParsing="false" onMouseClicked="#ReturnLoginScene" prefHeight="42.0" prefWidth="198.0" text="返    回" textFill="#529a25" />
+      <Text fill="#fffbf0" layoutX="343.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="10.0" text="昵称：" wrappingWidth="86.30029296875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbf0" layoutX="343.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="10.0" text="描述：" wrappingWidth="86.30029296875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbf0" layoutX="343.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="10.0" text="密码：" wrappingWidth="86.30029296875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button id="button" layoutX="745.0" layoutY="234.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onMouseClicked="#ReadFile" prefHeight="28.0" prefWidth="109.0" text="浏   览" textFill="#529a25">
+         <font>
+            <Font size="11.0" />
+         </font></Button>
+      <Text fill="#fffbf0" layoutX="343.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="10.0" text="路径：" wrappingWidth="86.30029296875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="path" layoutX="448.0" layoutY="234.0" opacity="0.97" prefHeight="25.0" prefWidth="280.0" promptText="请输入路径目录" />
+      <Text id="register-text" layoutX="434.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Register" wrappingWidth="306.30029296875">
+         <fill>
+            <RadialGradient centerX="0.9318181818181819" centerY="1.0" focusAngle="-116.57" focusDistance="0.853658536585366" radius="0.9146341463414634">
+               <stops>
+                  <Stop color="#93cf88" />
+                  <Stop color="#b9c225" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+         <font>
+            <Font name="Constantia Bold Italic" size="62.0" />
+         </font>
+      </Text>
+      <Polyline fill="#40e4c9" layoutX="257.0" layoutY="135.0" rotate="33.7" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline fill="#44e36eda" layoutX="888.0" layoutY="149.0" rotate="45.0" stroke="#f5f72fb5" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+   </children>
+</Pane>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="pane1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UploadReadFileSceneController">
+   <children>
+      <Separator layoutX="266.0" layoutY="34.0" prefHeight="8.0" prefWidth="549.0" />
+      <Separator layoutX="266.0" layoutY="99.0" prefHeight="8.0" prefWidth="549.0" />
+      <Label id="label2" layoutX="469.0" layoutY="42.0" prefHeight="56.0" prefWidth="144.0" text="   上    传" textFill="#fffdfd">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <SwingNode layoutX="200.0" layoutY="203.0" />
+      <Button layoutX="774.0" layoutY="150.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onMouseClicked="#ReadFile" prefHeight="30.0" prefWidth="82.0" rotate="0.88" text="浏   览" textFill="#2d9726" />
+      <TextField fx:id="FilePath" layoutX="320.0" layoutY="150.0" prefHeight="30.0" prefWidth="403.0" promptText="apk文件..." />
+      <Button layoutX="300.0" layoutY="665.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onMouseClicked="#EnsureUpload" prefHeight="41.0" prefWidth="176.0" rotate="0.88" text="上       传" textFill="#2d9726">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Separator layoutX="138.0" layoutY="410.0" prefHeight="20.0" prefWidth="434.0" rotate="90.0" />
+      <Label id="label-red" layoutX="388.0" layoutY="373.0" prefHeight="41.0" prefWidth="111.0" text="信      誉：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Text fx:id="market_rep" fill="#4a2020" layoutX="570.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Separator layoutX="516.0" layoutY="410.0" prefHeight="20.0" prefWidth="434.0" rotate="90.0" />
+      <Label id="label-green" layoutX="388.0" layoutY="245.0" prefHeight="41.0" prefWidth="126.0" text="市     场：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Text fx:id="market" fill="#756420" layoutX="570.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Separator layoutX="355.0" layoutY="230.0" prefHeight="20.0" prefWidth="377.0" />
+      <Separator layoutX="355.0" layoutY="350.0" prefHeight="20.0" prefWidth="377.0" />
+      <Separator layoutX="355.0" layoutY="286.0" prefHeight="20.0" prefWidth="377.0" />
+      <Label id="label-blue" layoutX="388.0" layoutY="498.0" prefHeight="41.0" prefWidth="126.0" text="注册时间：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Text fx:id="date" fill="#321919" layoutX="549.0" layoutY="532.0" strokeType="OUTSIDE" strokeWidth="0.0" text="    * * * * * " wrappingWidth="184.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Separator layoutX="355.0" layoutY="478.0" prefHeight="20.0" prefWidth="377.0" />
+      <Separator layoutX="355.0" layoutY="410.0" prefHeight="20.0" prefWidth="377.0" />
+      <Separator layoutX="355.0" layoutY="539.0" prefHeight="20.0" prefWidth="377.0" />
+      <Button layoutX="626.0" layoutY="665.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onMouseClicked="#ReturnUploadMarketSelectScene" prefHeight="41.0" prefWidth="176.0" rotate="0.88" text="返       回" textFill="#2d9726">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Polyline layoutX="184.0" layoutY="111.0" rotate="-45.0" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#e3424fe3" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Polyline>
+      <Polyline fill="#61e342" layoutX="860.0" layoutY="73.0" rotate="99.5" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+   </children>
+</Pane>

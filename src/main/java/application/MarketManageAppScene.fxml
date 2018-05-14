@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="pane1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MarketManageAppSceneController">
+   <children>
+      <Separator layoutX="361.0" layoutY="33.0" prefHeight="13.0" prefWidth="359.0" />
+      <Separator layoutX="361.0" layoutY="101.0" prefHeight="13.0" prefWidth="359.0" />
+      <Label id="label2" layoutX="437.0" layoutY="44.0" prefHeight="69.0" prefWidth="104.0" text="    APP" textFill="#fffdfd">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="-2.0" layoutY="350.0" prefHeight="20.0" prefWidth="576.0" rotate="90.0" />
+      <Separator layoutX="361.0" layoutY="303.0" prefHeight="7.0" prefWidth="359.0" />
+      <Separator layoutX="361.0" layoutY="360.0" prefHeight="20.0" prefWidth="359.0" />
+      <Separator layoutX="362.0" layoutY="562.0" prefHeight="20.0" prefWidth="359.0" />
+      <Label id="label-red" layoutX="396.0" layoutY="454.0" prefHeight="41.0" prefWidth="120.0" text="信 誉 值 ：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label-blue" layoutX="396.0" layoutY="518.0" prefHeight="41.0" prefWidth="132.0" text="上传时间：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Text fx:id="developer" fill="#463939" layoutX="562.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="date" fill="#544242" layoutX="562.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="190.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button layoutX="285.0" layoutY="675.0" mnemonicParsing="false" onMouseClicked="#Pass" opacity="0.88" prefHeight="35.0" prefWidth="257.0" text="通         过" textFill="#2d9726">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="553.0" layoutY="675.0" mnemonicParsing="false" onMouseClicked="#Refuse" opacity="0.88" prefHeight="35.0" prefWidth="257.0" text="拒          绝" textFill="#2d9726">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="823.0" layoutY="675.0" mnemonicParsing="false" onMouseClicked="#ReturnMarketManageScene" opacity="0.88" prefHeight="35.0" prefWidth="243.0" text="返         回" textFill="#2d9726">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Separator layoutX="506.0" layoutY="350.0" prefHeight="20.0" prefWidth="576.0" rotate="90.0" />
+      <Label id="label2" fx:id="name" layoutX="551.0" layoutY="65.0" prefHeight="27.0" prefWidth="91.0" styleClass="label2" text="  name" textFill="#fffdfd">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Text fill="#4d3c3c" layoutX="489.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="90.0" styleClass="label1" text="软件介绍" wrappingWidth="181.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Label id="label-green" layoutX="396.0" layoutY="387.0" prefHeight="41.0" prefWidth="120.0" text="开 发 者 ： " textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Text fx:id="reputation" fill="#614d4d" layoutX="562.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Separator layoutX="361.0" layoutY="182.0" prefHeight="7.0" prefWidth="359.0" />
+      <Button layoutX="14.0" layoutY="675.0" mnemonicParsing="false" opacity="0.88" prefHeight="35.0" prefWidth="257.0" text="下          载" textFill="#2d9726">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Text fill="#2c2016" layoutX="381.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="322.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Polyline fill="#4288e3a1" layoutX="204.0" layoutY="87.0" rotate="59.7" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline fill="#e342959c" layoutX="846.0" layoutY="249.0" rotate="122.0" stroke="#f5c02c" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <QuadCurve controlX="-50.0" controlY="-100.0" endX="50.0" fill="#5cff1f" layoutX="777.0" layoutY="71.0" startX="-50.0" stroke="#d4ddc4c7" strokeType="INSIDE" strokeWidth="5.0" />
+   </children>
+</Pane>

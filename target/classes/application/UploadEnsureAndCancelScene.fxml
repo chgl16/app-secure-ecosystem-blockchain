@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="pane1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UploadEnsureAndCancelSceneController">
+   <children>
+      <Button layoutX="487.0" layoutY="202.0" mnemonicParsing="false" onMouseClicked="#Ensure" opacity="0.88" prefHeight="59.0" prefWidth="286.0" text="确      定" textFill="#49e82d">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="487.0" layoutY="417.0" mnemonicParsing="false" onMouseClicked="#Cancel" opacity="0.88" prefHeight="59.0" prefWidth="286.0" text="取     消" textFill="#cd8e3c">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Polyline fill="#6be342" layoutX="386.0" layoutY="222.0" rotate="270.0" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline fill="#e3a542" layoutX="376.0" layoutY="437.0" rotate="270.0" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+   </children>
+</Pane>

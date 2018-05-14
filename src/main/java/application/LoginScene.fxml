@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane id="actiontarget" fx:id="sPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#Login" prefHeight="720.0" prefWidth="1080.0" styleClass="loginBackground" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginSceneController">
+   <children>
+      <TextField fx:id="Account" layoutX="428.0" layoutY="243.0" opacity="0.97" prefHeight="24.0" prefWidth="259.0" promptText="请输入帐号" />
+      <PasswordField fx:id="Password" layoutX="428.0" layoutY="345.0" prefHeight="30.0" prefWidth="259.0" promptText="请输入密码" />
+      <Text fill="WHITE" layoutX="324.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="10.0" text="账   号 :" wrappingWidth="86.30029296875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#fff9f9" layoutX="324.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="10.0" text="密   码：" wrappingWidth="86.30029296875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="sregister" layoutX="502.0" layoutY="567.0" onMouseClicked="#Register" strokeType="OUTSIDE" strokeWidth="10.0" text=" 点 我 注 册" underline="true" wrappingWidth="130.30029296875">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#c9e525" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Button id="button" fx:id="mlogin" layoutX="455.0" layoutY="471.0" mnemonicParsing="false" onMouseClicked="#Login" opacity="0.88" prefHeight="42.0" prefWidth="206.0" text="登           录" textFill="#2f994f" />
+      <Button id="button" layoutX="711.0" layoutY="242.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onMouseClicked="#ReadFile" opacity="0.88" prefHeight="28.0" prefWidth="73.0" text="浏   览" textFill="#2f994f" />
+      <Group id="1" layoutX="-24.0" layoutY="-31.0">
+         <children>
+            <RadioButton fx:id="user" layoutX="657.0" layoutY="191.0" mnemonicParsing="false" text="用 户" textFill="WHITE">
+               <toggleGroup>
+                  <ToggleGroup fx:id="group" />
+               </toggleGroup>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="developer" layoutX="550.0" layoutY="191.0" mnemonicParsing="false" text="开发者" textFill="#fffffffe" toggleGroup="$group">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="market" layoutX="452.0" layoutY="191.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="78.0" selected="true" text="市 场" textFill="#f5f0f0" toggleGroup="$group">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </Group>
+      <Button id="button" layoutX="873.0" layoutY="678.0" mnemonicParsing="false" onMouseClicked="#Close" opacity="0.88" prefHeight="30.0" prefWidth="198.0" text="退      出" textFill="#2f994f" />
+      <Text id="welcome-text" layoutX="404.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome" wrappingWidth="306.30029296875" />
+      <Text layoutX="24.0" layoutY="648.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blockchain" textAlignment="JUSTIFY" wrappingWidth="299.30029296875">
+         <font>
+            <Font name="System Bold Italic" size="49.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.3352272727272727" centerY="0.2912621359223301" focusDistance="0.5609756097560976" radius="1.0">
+               <stops>
+                  <Stop color="#d7e376" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text fill="WHITE" layoutX="324.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="10.0" text="类   型 :" wrappingWidth="86.30029296875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="773.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Ecosystem" wrappingWidth="278.326171875">
+         <fill>
+            <RadialGradient centerX="0.7045454545454546" centerY="0.9271844660194175" focusDistance="0.8292682926829269" radius="0.2804878048780488">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#284d9ca1" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+         <font>
+            <Font name="System Bold Italic" size="49.0" />
+         </font></Text>
+      <Text layoutX="837.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="App" wrappingWidth="100.326171875">
+         <font>
+            <Font name="System Bold Italic" size="45.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="1.0" centerY="1.0" focusDistance="0.8292682926829269" radius="0.2804878048780488">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#cf5c0a8c" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text layoutX="82.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Safety" wrappingWidth="159.326171875">
+         <fill>
+            <RadialGradient centerX="0.9602272727272727" centerY="1.0" focusDistance="0.8292682926829269" radius="0.2804878048780488">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#3b9c28" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+         <font>
+            <Font name="System Bold Italic" size="48.0" />
+         </font>
+      </Text>
+   </children>
+   <effect>
+      <Lighting>
+         <bumpInput>
+            <Shadow />
+         </bumpInput>
+         <light>
+            <Light.Distant />
+         </light>
+      </Lighting>
+   </effect>
+</Pane>

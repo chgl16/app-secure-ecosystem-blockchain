@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="pane1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DeveloperFeedbackNoteSceneController">
+   <children>
+      <Separator layoutX="312.0" layoutY="94.0" prefHeight="12.0" prefWidth="478.0" />
+      <Label id="label2" layoutX="480.0" layoutY="32.0" prefHeight="64.0" prefWidth="160.0" text=" 我 的 反 馈" textFill="#fffdfd">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Separator layoutX="312.0" layoutY="32.0" prefHeight="12.0" prefWidth="478.0" />
+      <Separator layoutX="198.0" layoutY="159.0" prefHeight="21.0" prefWidth="723.0" />
+      <Separator layoutX="198.0" layoutY="250.0" prefHeight="21.0" prefWidth="723.0" />
+      <Separator layoutX="198.0" layoutY="490.0" prefHeight="21.0" prefWidth="723.0" />
+      <Separator layoutX="198.0" layoutY="410.0" prefHeight="21.0" prefWidth="723.0" />
+      <Separator layoutX="198.0" layoutY="330.0" prefHeight="21.0" prefWidth="723.0" />
+      <Separator layoutX="198.0" layoutY="570.0" prefHeight="21.0" prefWidth="723.0" />
+      <Separator layoutX="-8.0" layoutY="365.0" prefHeight="21.0" prefWidth="412.0" rotate="90.0" />
+      <Separator layoutX="131.0" layoutY="365.0" prefHeight="21.0" prefWidth="412.0" rotate="90.0" />
+      <Separator layoutX="278.0" layoutY="365.0" prefHeight="21.0" prefWidth="412.0" rotate="90.0" />
+      <Separator layoutX="715.0" layoutY="365.0" prefHeight="21.0" prefWidth="412.0" rotate="90.0" />
+      <Separator layoutX="567.0" layoutY="365.0" prefHeight="21.0" prefWidth="412.0" rotate="90.0" />
+      <Separator layoutX="425.0" layoutY="365.0" prefHeight="21.0" prefWidth="412.0" rotate="90.0" />
+      <Label id="label5" layoutX="198.0" layoutY="180.0" prefHeight="74.0" prefWidth="141.0" text="     Ａ P P" textFill="#fffdfd">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="348.0" layoutY="180.0" prefHeight="74.0" prefWidth="130.0" text=" 所 在 市 场" textFill="#fffdfd">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="642.0" layoutY="180.0" prefHeight="74.0" prefWidth="125.0" text="  时       间" textFill="#fffdfd">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="783.0" layoutY="180.0" prefHeight="74.0" prefWidth="125.0" text="   通      过" textFill="#fffdfd">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Text fill="#fffdfd" layoutX="243.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="......" wrappingWidth="57.30029296875">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="236.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="app1" wrappingWidth="65.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="236.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="app2" wrappingWidth="65.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="236.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="app3" wrappingWidth="65.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="370.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="market1" wrappingWidth="81.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="370.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="market2" wrappingWidth="81.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="370.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="market3" wrappingWidth="81.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="672.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="date1" wrappingWidth="65.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="672.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="date2" wrappingWidth="65.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="672.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="date3" wrappingWidth="65.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="390.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="......" wrappingWidth="57.30029296875">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="528.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="......" wrappingWidth="57.30029296875">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="679.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="......" wrappingWidth="57.30029296875">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="817.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="......" wrappingWidth="57.30029296875">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="828.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="no" wrappingWidth="35.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="828.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="yes" wrappingWidth="35.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="828.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="yes" wrappingWidth="35.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="464.0" layoutY="648.0" mnemonicParsing="false" onMouseClicked="#ReturnDeveloperMessageScene" opacity="0.88" prefHeight="32.0" prefWidth="191.0" text="返         回" textFill="#88ae28" />
+      <Label id="label5" layoutX="489.0" layoutY="180.0" prefHeight="74.0" prefWidth="135.0" text="  开  发  者" textFill="#fffdfd">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Text fill="#fffdfd" layoutX="504.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="deveolper1" wrappingWidth="110.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="504.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="deveolper1" wrappingWidth="110.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="504.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="deveolper1" wrappingWidth="110.30029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Polyline layoutX="198.0" layoutY="72.0" rotate="9.5" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5825242718446602" startY="0.24757281553398058">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline fill="#40e4c9" layoutX="908.0" layoutY="72.0" rotate="116.6" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline fill="#afcc3d6f" layoutX="708.0" layoutY="654.0" rotate="90.0" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline layoutX="411.0" layoutY="654.0" rotate="-90.0" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5825242718446602" startY="0.24757281553398058">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="#e1de53" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+   </children>
+</Pane>

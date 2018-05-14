@@ -1,0 +1,4 @@
+miner.start(1)
+miner.newAccount()
+persional.newAccount()
+miner.start(1)

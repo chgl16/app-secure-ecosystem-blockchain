@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="pane1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UploadMarketSelectSceneController">
+   <children>
+      <Separator layoutX="276.0" layoutY="44.0" prefHeight="8.0" prefWidth="549.0" />
+      <Separator layoutX="276.0" layoutY="104.0" prefHeight="8.0" prefWidth="549.0" />
+      <Label id="label2" layoutX="479.0" layoutY="52.0" prefHeight="56.0" prefWidth="144.0" styleClass="label2" text=" 选 择 市 场" textFill="#fffdfd">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="Market1" layoutX="230.0" layoutY="168.0" onMouseClicked="#OpenUploadReadFileScene1" prefHeight="75.0" prefWidth="81.0" text=" Market" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="ID1" layoutX="237.0" layoutY="241.0" prefHeight="20.0" prefWidth="67.0" text="    ID" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="Market2" layoutX="415.0" layoutY="168.0" onMouseClicked="#OpenUploadReadFileScene2" prefHeight="75.0" prefWidth="81.0" text=" Market" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="ID5" layoutX="237.0" layoutY="411.0" prefHeight="20.0" prefWidth="67.0" text="    ID" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ID12" layoutX="782.0" layoutY="579.0" prefHeight="20.0" prefWidth="67.0" text="    ID" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ID6" layoutX="422.0" layoutY="411.0" prefHeight="20.0" prefWidth="67.0" text="    ID" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ID7" layoutX="602.0" layoutY="411.0" prefHeight="20.0" prefWidth="67.0" text="    ID" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ID8" layoutX="782.0" layoutY="411.0" prefHeight="20.0" prefWidth="67.0" text="    ID" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ID2" layoutX="422.0" layoutY="243.0" prefHeight="20.0" prefWidth="67.0" text="    ID" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ID3" layoutX="602.0" layoutY="243.0" prefHeight="20.0" prefWidth="67.0" text="    ID" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ID4" layoutX="782.0" layoutY="243.0" prefHeight="20.0" prefWidth="67.0" text="    ID" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="Market5" layoutX="230.0" layoutY="336.0" onMouseClicked="#OpenUploadReadFileScene5" prefHeight="75.0" prefWidth="81.0" text=" Market" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="Market6" layoutX="415.0" layoutY="336.0" onMouseClicked="#OpenUploadReadFileScene6" prefHeight="75.0" prefWidth="81.0" text=" Market" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="Market7" layoutX="595.0" layoutY="336.0" onMouseClicked="#OpenUploadReadFileScene7" prefHeight="75.0" prefWidth="81.0" text=" Market" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="Market11" layoutX="602.0" layoutY="504.0" onMouseClicked="#OpenUploadReadFileScene11" prefHeight="75.0" prefWidth="81.0" text=" Market" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="Market12" layoutX="775.0" layoutY="504.0" onMouseClicked="#OpenUploadReadFileScene12" prefHeight="75.0" prefWidth="81.0" text=" Market" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="Market8" layoutX="775.0" layoutY="336.0" onMouseClicked="#OpenUploadReadFileScene8" prefHeight="75.0" prefWidth="81.0" text=" Market" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="Market3" layoutX="595.0" layoutY="168.0" onMouseClicked="#OpenUploadReadFileScene3" prefHeight="75.0" prefWidth="81.0" text=" Market" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="Market4" layoutX="775.0" layoutY="168.0" onMouseClicked="#OpenUploadReadFileScene4" prefHeight="75.0" prefWidth="81.0" text=" Market" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="Market10" layoutX="415.0" layoutY="504.0" onMouseClicked="#OpenUploadReadFileScene10" prefHeight="75.0" prefWidth="81.0" text=" Market" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="Market9" layoutX="230.0" layoutY="504.0" onMouseClicked="#OpenUploadReadFileScene9" prefHeight="75.0" prefWidth="81.0" text=" Market" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="ID9" layoutX="237.0" layoutY="579.0" prefHeight="20.0" prefWidth="67.0" text="    ID" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ID10" layoutX="422.0" layoutY="579.0" prefHeight="20.0" prefWidth="67.0" text="    ID" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ID11" layoutX="609.0" layoutY="579.0" prefHeight="20.0" prefWidth="67.0" text="    ID" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="479.0" layoutY="666.0" mnemonicParsing="false" onMouseClicked="#ReturnDeveloperScene" opacity="0.88" prefHeight="35.0" prefWidth="144.0" text="返       回" textFill="#2d9726">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="756.0" layoutY="666.0" mnemonicParsing="false" onMouseClicked="#next" opacity="0.88" prefHeight="8.0" prefWidth="109.0" text="下   一   页" textFill="#2d9726">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="230.0" layoutY="666.0" mnemonicParsing="false" onMouseClicked="#previous" opacity="0.88" prefHeight="14.0" prefWidth="109.0" text="上   一   页" textFill="#2d9726">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Polyline layoutX="992.0" layoutY="632.0" opacity="0.53" rotate="135.0" stroke="#f5f72fb5" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#5e5948d6" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline fill="#40e4c9" layoutX="195.0" layoutY="94.0" rotate="-112.6" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline fill="#42e36f" layoutX="906.0" layoutY="120.0" opacity="0.43" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+   </children>
+</Pane>

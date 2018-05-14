@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="pane1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.VersionUpdateSceneController">
+   <children>
+      <Button layoutX="436.0" layoutY="591.0" mnemonicParsing="false" onMouseClicked="#ReturnPreviousScene" opacity="0.88" prefHeight="38.0" prefWidth="208.0" text="返      回" textFill="#17eb2c">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Text layoutX="483.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="尚 未 开 发 😀!     敬请期待哦..." wrappingWidth="141.30029296875">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startY="0.46116504854368934">
+               <stops>
+                  <Stop color="#cfb000" />
+                  <Stop color="#cf9300" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Polyline layoutX="540.0" layoutY="435.0" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.2087378640776699">
+               <stops>
+                  <Stop color="#61e342" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Polyline>
+   </children>
+</Pane>

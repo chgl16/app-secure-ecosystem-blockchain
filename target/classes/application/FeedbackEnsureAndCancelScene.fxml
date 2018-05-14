@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="pane1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FeedbackEnsureAndCancelSceneController">
+   <children>
+      <Button layoutX="397.0" layoutY="201.0" mnemonicParsing="false" onMouseClicked="#EnsureFeedback" opacity="0.88" prefHeight="59.0" prefWidth="286.0" text="确      定" textFill="#1ad023">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="397.0" layoutY="408.0" mnemonicParsing="false" onMouseClicked="#CancelFeedback" opacity="0.88" prefHeight="59.0" prefWidth="286.0" text="取     消" textFill="#f77514">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Polyline layoutX="241.0" layoutY="191.0" rotate="-51.3" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5825242718446602" startY="0.24757281553398058">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+   </children>
+</Pane>

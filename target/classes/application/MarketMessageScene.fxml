@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="pane1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MarketMessageSceneController">
+   <children>
+      <Separator layoutX="361.0" layoutY="44.0" prefHeight="12.0" prefWidth="359.0" />
+      <Separator layoutX="361.0" layoutY="101.0" prefHeight="12.0" prefWidth="359.0" />
+      <Label id="label2" layoutX="465.0" layoutY="46.0" prefHeight="66.0" prefWidth="170.0" text="我   的   信   息" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="-2.0" layoutY="350.0" prefHeight="20.0" prefWidth="576.0" rotate="90.0" />
+      <Separator layoutX="371.0" layoutY="301.0" prefHeight="12.0" prefWidth="353.0" />
+      <Separator layoutX="371.0" layoutY="212.0" prefHeight="12.0" prefWidth="359.0" />
+      <Separator layoutX="371.0" layoutY="395.0" prefHeight="12.0" prefWidth="353.0" />
+      <Separator layoutX="371.0" layoutY="577.0" prefHeight="12.0" prefWidth="353.0" />
+      <Separator layoutX="371.0" layoutY="491.0" prefHeight="12.0" prefWidth="353.0" />
+      <Label id="label5" layoutX="396.0" layoutY="173.0" prefHeight="41.0" prefWidth="111.0" text="我      是：" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="562.0" layoutY="173.0" prefHeight="41.0" prefWidth="111.0" text="市      场" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="396.0" layoutY="453.0" prefHeight="41.0" prefWidth="111.0" styleClass="label1" text="企  业 号：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="396.0" layoutY="262.0" prefHeight="41.0" prefWidth="111.0" styleClass="label1" text="昵      称：" textFill="#38ae38">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="396.0" layoutY="538.0" prefHeight="41.0" prefWidth="111.0" styleClass="label1" text="注册时间：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="396.0" layoutY="357.0" prefHeight="41.0" prefWidth="111.0" styleClass="label1" text="信      誉：" textFill="#38ae38">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Text fx:id="name" fill="#1e1616" layoutX="562.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="reputation" fill="#1e1616" layoutX="562.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="desc" fill="#1e1616" layoutX="562.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="registerTime" fill="#1e1616" layoutX="562.0" layoutY="566.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="159.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button layoutX="139.0" layoutY="671.0" mnemonicParsing="false" onMouseClicked="#OpenMarketMessageScene" opacity="0.88" prefHeight="27.0" prefWidth="257.0" text="我 的 信 息" textFill="#2d9726">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="412.0" layoutY="671.0" mnemonicParsing="false" opacity="0.88" prefHeight="27.0" prefWidth="257.0" text="更 改 信 息" textFill="#2d9726">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="689.0" layoutY="671.0" mnemonicParsing="false" onMouseClicked="#ReturnMarketScene" opacity="0.88" prefHeight="27.0" prefWidth="257.0" text="返         回" textFill="#2d9726">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Separator layoutX="506.0" layoutY="350.0" prefHeight="20.0" prefWidth="576.0" rotate="90.0" />
+      <Polyline layoutX="311.0" layoutY="54.0" opacity="0.89" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5825242718446602" startY="0.24757281553398058">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline layoutX="768.0" layoutY="54.0" opacity="0.89" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5825242718446602" startY="0.24757281553398058">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <QuadCurve controlX="-50.0" controlY="-100.0" endX="50.0" fill="#5cff1f" layoutX="541.0" layoutY="50.0" startX="-50.0" stroke="#d4ddc4c7" strokeType="INSIDE" strokeWidth="5.0" />
+   </children>
+</Pane>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="pane1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AppFeedbackSceneController">
+   <children>
+      <Separator layoutX="266.0" layoutY="34.0" prefHeight="8.0" prefWidth="549.0" />
+      <Separator layoutX="266.0" layoutY="99.0" prefHeight="8.0" prefWidth="549.0" />
+      <Label id="label2" layoutX="469.0" layoutY="42.0" prefHeight="56.0" prefWidth="144.0" text="   反    馈" textFill="#fff9f9">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <SwingNode layoutX="200.0" layoutY="203.0" />
+      <Button layoutX="293.0" layoutY="670.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onMouseClicked="#EnsureFeedback" opacity="0.88" prefHeight="41.0" prefWidth="176.0" text="反      馈" textFill="#6ae320">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Separator layoutX="116.0" layoutY="380.0" prefHeight="20.0" prefWidth="479.0" rotate="90.0" />
+      <Label id="label-red" layoutX="376.0" layoutY="422.0" prefHeight="41.0" prefWidth="133.0" text="该市场信誉：" textFill="#fff9f9">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Text fx:id="Market_rep" fill="#5b4e4e" layoutX="571.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Separator layoutX="496.0" layoutY="380.0" prefHeight="20.0" prefWidth="472.0" rotate="90.0" />
+      <Label layoutX="376.0" layoutY="306.0" prefHeight="41.0" prefWidth="133.0" text="反馈到市场：" textFill="#fff9f9">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Text fx:id="Market" fill="#5b5252" layoutX="571.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Separator layoutX="352.0" layoutY="286.0" prefHeight="20.0" prefWidth="377.0" />
+      <Separator layoutX="355.0" layoutY="402.0" prefHeight="20.0" prefWidth="377.0" />
+      <Separator layoutX="355.0" layoutY="350.0" prefHeight="20.0" prefWidth="377.0" />
+      <Label id="label-blue" layoutX="376.0" layoutY="544.0" prefHeight="41.0" prefWidth="144.0" text="注 册 时 间 ：" textFill="#fff9f9">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Text fx:id="registTime" fill="#4a4242" layoutX="553.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   * * * * * " wrappingWidth="176.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Separator layoutX="352.0" layoutY="524.0" prefHeight="20.0" prefWidth="377.0" />
+      <Separator layoutX="355.0" layoutY="463.0" prefHeight="20.0" prefWidth="377.0" />
+      <Separator layoutX="355.0" layoutY="590.0" prefHeight="20.0" prefWidth="377.0" />
+      <Button layoutX="627.0" layoutY="670.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onMouseClicked="#ReturnFeedbackMarketSelectScene" opacity="0.88" prefHeight="41.0" prefWidth="176.0" text="返       回" textFill="#29d34b">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label id="label-green" layoutX="376.0" layoutY="183.0" prefHeight="41.0" prefWidth="126.0" text="反馈的app：" textFill="#fff9f9">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Separator layoutX="355.0" layoutY="224.0" prefHeight="20.0" prefWidth="377.0" />
+      <Separator layoutX="355.0" layoutY="167.0" prefHeight="20.0" prefWidth="377.0" />
+      <Text fx:id="app" fill="#685f5c" layoutX="571.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Polyline layoutX="200.0" layoutY="187.0" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="0.7669902912621359" endY="0.2961165048543689" startX="0.6893203883495145" startY="0.6067961165048543">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="#aaeb548c" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline layoutX="881.0" layoutY="193.0" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="0.7669902912621359" endY="0.2961165048543689" startX="0.6893203883495145" startY="0.6067961165048543">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="#aaeb548c" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+   </children>
+</Pane>

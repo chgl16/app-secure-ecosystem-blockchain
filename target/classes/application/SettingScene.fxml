@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane id="pane1-set" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SettingSceneController">
+   <children>
+      <Separator layoutX="287.0" layoutY="218.0" prefHeight="20.0" prefWidth="164.0" rotate="90.0" />
+      <Separator layoutX="360.0" layoutY="84.0" prefHeight="12.0" prefWidth="370.0" />
+      <Label id="label2" layoutX="464.0" layoutY="42.0" prefHeight="49.0" prefWidth="152.0" text="      设     置" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Separator layoutX="22.0" layoutY="351.0" prefHeight="12.0" prefWidth="572.0" rotate="90.0" />
+      <Separator layoutX="371.0" layoutY="304.0" prefHeight="12.0" prefWidth="359.0" />
+      <Separator layoutX="371.0" layoutY="191.0" prefHeight="12.0" prefWidth="359.0" />
+      <Separator layoutX="371.0" layoutY="569.0" prefHeight="12.0" prefWidth="359.0" />
+      <Label layoutX="396.0" layoutY="158.0" prefHeight="27.0" prefWidth="111.0" styleClass="label1" text="软    件：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label-red" layoutX="465.0" layoutY="419.0" onMouseClicked="#OpenVersionUpdateScene" prefHeight="41.0" prefWidth="142.0" text="2.   分         享" textFill="#e0a914">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="396.0" layoutY="213.0" prefHeight="30.0" prefWidth="111.0" styleClass="label1" text="版     本：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label-green" layoutX="465.0" layoutY="340.0" onMouseClicked="#OpenVersionUpdateScene" prefHeight="41.0" prefWidth="142.0" text="1.   更 新 版 本" textFill="#38ae38">
+          <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Text fill="#365718" layoutX="552.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="阿尔法内测版" wrappingWidth="111.0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button id="button-set" layoutX="195.0" layoutY="662.0" mnemonicParsing="false" onMouseClicked="#Exit" opacity="0.88" prefHeight="35.0" prefWidth="257.0" text="退         出" textFill="#2d9726">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button id="button-set" layoutX="625.0" layoutY="661.0" mnemonicParsing="false" onMouseClicked="#ReturnWhichUseSettingScene" opacity="0.88" prefHeight="35.0" prefWidth="257.0" text="返         回" textFill="#2d9726">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Separator layoutX="498.0" layoutY="358.0" prefHeight="12.0" prefWidth="568.0" rotate="90.0" />
+      <Label id="label-blue" layoutX="465.0" layoutY="501.0" onMouseClicked="#LogOff" prefHeight="41.0" prefWidth="142.0" text="3.   注         销" textFill="#1772bc">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="396.0" layoutY="268.0" prefHeight="30.0" prefWidth="111.0" styleClass="label1" text="作     者：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Separator layoutX="371.0" layoutY="246.0" prefHeight="12.0" prefWidth="359.0" />
+      <Separator layoutX="371.0" layoutY="36.0" prefHeight="12.0" prefWidth="359.0" />
+      <Text fill="#365718" layoutX="550.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="你说的都对队" wrappingWidth="142.0">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Text>
+      <Separator layoutX="647.0" layoutY="218.0" prefHeight="20.0" prefWidth="164.0" rotate="90.0" />
+      <Separator layoutX="373.0" layoutY="136.0" prefHeight="12.0" prefWidth="359.0" />
+      <Text fill="#365718" fontSmoothingType="LCD" layoutX="551.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="app安全生态系统" wrappingWidth="172.0">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Text>
+      <Polyline layoutX="763.0" layoutY="80.0" opacity="0.89" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="-40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="-40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="60.0" />
+          <Double fx:value="-50.0" />
+          <Double fx:value="-40.0" />
+        </points>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5825242718446602" startY="0.24757281553398058">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Polyline>
+      <Polyline layoutX="329.0" layoutY="74.0" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5825242718446602" startY="0.24757281553398058">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+   </children>
+</Pane>

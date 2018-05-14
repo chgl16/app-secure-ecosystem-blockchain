@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="pane1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UploadSuccessfullySceneController">
+   <children>
+      <Button layoutX="436.0" layoutY="591.0" mnemonicParsing="false" onMouseClicked="#ReturnPreviousScene" prefHeight="2.0" prefWidth="226.0" rotate="0.88" text="返      回" textFill="#2d9726">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Text fill="#c7a636" layoutX="483.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="上 传 成 功 👻!     请耐心等待审核..." wrappingWidth="141.30029296875">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Polyline fill="#40e4c9" layoutX="549.0" layoutY="504.0" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+   </children>
+</Pane>

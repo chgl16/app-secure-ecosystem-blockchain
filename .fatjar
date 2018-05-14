@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Sun Jun 04 20:01:52 CST 2017
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=FF_fat.jar
+manifest.mergeall=true
+manifest.mainclass=application.Main
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

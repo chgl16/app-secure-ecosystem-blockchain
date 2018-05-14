@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="pane1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AppMarketSceneController">
+   <children>
+      <Separator layoutX="305.0" layoutY="28.0" prefHeight="9.0" prefWidth="472.0" />
+      <Separator layoutX="304.0" layoutY="80.0" prefHeight="9.0" prefWidth="472.0" />
+      <Label id="label2" fx:id="Market1" layoutX="489.0" layoutY="30.0" prefHeight="57.0" prefWidth="102.0" text="Market1" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="572.0" layoutY="136.0" prefHeight="57.0" prefWidth="102.0" styleClass="label1" text="常用软件" textFill="#fff9f9">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="408.0" layoutY="136.0" prefHeight="57.0" prefWidth="102.0" styleClass="label1" text="热门推荐" textFill="#fff9f9">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="245.0" layoutY="136.0" prefHeight="57.0" prefWidth="102.0" styleClass="label1" text="最近更新" textFill="#fff9f9">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="725.0" layoutY="136.0" prefHeight="57.0" prefWidth="102.0" styleClass="label1" text="其他软件" textFill="#fff9f9">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="App1" layoutX="245.0" layoutY="227.0" onMouseClicked="#OpenApp1Scene" prefHeight="75.0" prefWidth="81.0" styleClass="label5" text="App1" textAlignment="CENTER" textFill="#f2eaea">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="App2" layoutX="408.0" layoutY="227.0" onMouseClicked="#OpenApp2Scene" prefHeight="75.0" prefWidth="81.0" styleClass="label5" text="App2" textFill="#f2eaea">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="App5" layoutX="245.0" layoutY="366.0" onMouseClicked="#OpenApp5Scene" prefHeight="75.0" prefWidth="81.0" styleClass="label5" text="App5" textFill="#f2eaea">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="App3" layoutX="572.0" layoutY="227.0" onMouseClicked="#OpenApp3Scene" prefHeight="75.0" prefWidth="81.0" styleClass="label5" text="App3" textFill="#f2eaea">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="App4" layoutX="725.0" layoutY="227.0" onMouseClicked="#OpenApp4Scene" prefHeight="75.0" prefWidth="81.0" styleClass="label5" text="App4" textFill="#f2eaea">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="App9" layoutX="245.0" layoutY="505.0" onMouseClicked="#OpenApp9Scene" prefHeight="75.0" prefWidth="81.0" styleClass="label5" text="App9" textFill="#f2eaea">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="App6" layoutX="408.0" layoutY="366.0" onMouseClicked="#OpenApp6Scene" prefHeight="75.0" prefWidth="81.0" styleClass="label5" text="App6" textFill="#f2eaea">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="App8" layoutX="725.0" layoutY="366.0" onMouseClicked="#OpenApp8Scene" prefHeight="75.0" prefWidth="81.0" styleClass="label5" text="App8" textFill="#f2eaea">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="App7" layoutX="572.0" layoutY="366.0" onMouseClicked="#OpenApp7Scene" prefHeight="75.0" prefWidth="81.0" styleClass="label5" text="App7" textFill="#f2eaea">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="App10" layoutX="408.0" layoutY="505.0" onMouseClicked="#OpenApp10Scene" prefHeight="75.0" prefWidth="81.0" styleClass="label5" text="App10" textFill="#f2eaea">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="App11" layoutX="572.0" layoutY="505.0" onMouseClicked="#OpenApp11Scene" prefHeight="75.0" prefWidth="81.0" styleClass="label5" text="App11" textFill="#f2eaea">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" fx:id="App12" layoutX="725.0" layoutY="505.0" onMouseClicked="#OpenApp12Scene" prefHeight="75.0" prefWidth="81.0" styleClass="label5" text="App12" textFill="#f2eaea">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="252.0" layoutY="442.0" prefHeight="20.0" prefWidth="67.0" styleClass="label6" text="name5" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="732.0" layoutY="302.0" prefHeight="20.0" prefWidth="67.0" styleClass="label6" text="name4" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="579.0" layoutY="302.0" prefHeight="20.0" prefWidth="67.0" styleClass="label6" text="name3" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="252.0" layoutY="581.0" prefHeight="20.0" prefWidth="67.0" styleClass="label6" text="name9" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="415.0" layoutY="581.0" prefHeight="26.0" prefWidth="73.0" styleClass="label6" text="name10" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="415.0" layoutY="442.0" prefHeight="20.0" prefWidth="67.0" styleClass="label6" text="name6" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="732.0" layoutY="442.0" prefHeight="20.0" prefWidth="67.0" styleClass="label6" text="name8" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="579.0" layoutY="442.0" prefHeight="20.0" prefWidth="67.0" styleClass="label6" text="name7" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="579.0" layoutY="581.0" prefHeight="26.0" prefWidth="73.0" styleClass="label6" text="name11" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="732.0" layoutY="581.0" prefHeight="26.0" prefWidth="73.0" styleClass="label6" text="name12" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="426.0" layoutY="676.0" mnemonicParsing="false" onMouseClicked="#ReturnWhichUseAppMarketScene" opacity="0.88" prefHeight="26.0" prefWidth="202.0" text="返          回" textFill="#25a860" />
+      <Label layoutX="415.0" layoutY="302.0" prefHeight="20.0" prefWidth="67.0" styleClass="label6" text="name2" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="252.0" layoutY="302.0" prefHeight="20.0" prefWidth="67.0" styleClass="label6" text="name1" textFill="#fffdfd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="462.0" layoutY="621.0" mnemonicParsing="false" onMouseClicked="#next" opacity="0.88" prefHeight="24.0" prefWidth="131.0" text="下       一      页" textFill="#45d740" />
+      <Polyline layoutX="939.0" layoutY="415.0" rotate="156.8" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="0.49514563106796117" endY="0.2961165048543689" startX="0.6893203883495145" startY="0.24757281553398058">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="#52a3ee" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline layoutX="109.0" layoutY="120.0" rotate="-126.0" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="0.7669902912621359" endY="0.2961165048543689" startX="0.6893203883495145" startY="0.6067961165048543">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="#ed539b8b" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline layoutX="939.0" layoutY="99.0" rotate="34.6" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="0.6747572815533981" endY="0.20873786407766987" startX="0.6893203883495145" startY="0.8543689320388349">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="#ed5353b6" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline layoutX="117.0" layoutY="547.0" rotate="-47.1" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="0.7669902912621359" endY="0.470873786407767" startX="0.6893203883495145" startY="0.6067961165048543">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="#53e1ed96" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+   </children>
+</Pane>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="pane1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FeedbackSuccessfullySceneController">
+   <children>
+      <Button layoutX="442.0" layoutY="590.0" mnemonicParsing="false" onMouseClicked="#ReturnAppFeedbackScene" opacity="0.88" prefHeight="38.0" prefWidth="208.0" text="返      回" textFill="#19bc42">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Text fill="#757511" layoutX="483.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="反馈成功!     请耐心等待审核..." wrappingWidth="141.30029296875">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <QuadCurve controlX="-50.0" controlY="-100.0" endX="50.0" fill="#15eb2eca" layoutX="554.0" layoutY="184.0" startX="-50.0" stroke="#d4ddc4c7" strokeType="INSIDE" strokeWidth="5.0" />
+      <Polyline layoutX="546.0" layoutY="514.0" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5825242718446602" startY="0.24757281553398058">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+   </children>
+</Pane>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="pane1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DeveloperMessageSceneController">
+   <children>
+      <Separator layoutX="361.0" layoutY="42.0" prefHeight="14.0" prefWidth="359.0" />
+      <Separator layoutX="361.0" layoutY="101.0" prefHeight="14.0" prefWidth="359.0" />
+      <Label id="label2" layoutX="465.0" layoutY="46.0" prefHeight="65.0" prefWidth="170.0" text="我   的   信   息" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Separator layoutX="-2.0" layoutY="350.0" prefHeight="20.0" prefWidth="576.0" rotate="90.0" />
+      <Separator layoutX="371.0" layoutY="306.0" prefHeight="7.0" prefWidth="359.0" />
+      <Separator layoutX="371.0" layoutY="217.0" prefHeight="7.0" prefWidth="350.0" />
+      <Separator layoutX="371.0" layoutY="400.0" prefHeight="7.0" prefWidth="350.0" />
+      <Separator layoutX="371.0" layoutY="582.0" prefHeight="7.0" prefWidth="350.0" />
+      <Separator layoutX="371.0" layoutY="496.0" prefHeight="7.0" prefWidth="350.0" />
+      <Label id="label5" layoutX="396.0" layoutY="173.0" prefHeight="41.0" prefWidth="111.0" text="我      是：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="562.0" layoutY="173.0" prefHeight="41.0" prefWidth="111.0" text="开 发 者" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="396.0" layoutY="453.0" prefHeight="41.0" prefWidth="111.0" styleClass="label1" text="帐      号：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="396.0" layoutY="262.0" prefHeight="41.0" prefWidth="111.0" styleClass="label1" text="昵      称：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="396.0" layoutY="538.0" prefHeight="41.0" prefWidth="111.0" styleClass="label1" text="注册时间：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label id="label5" layoutX="396.0" layoutY="357.0" prefHeight="41.0" prefWidth="111.0" styleClass="label1" text="信      誉：" textFill="#fffdfd">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Text fx:id="name" fill="#322828" layoutX="562.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="rep" fill="#432e2e" layoutX="562.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="addr" fill="#250404" layoutX="563.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="186.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="* * * * * " wrappingWidth="111.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="date" fill="#3c2525" layoutX="557.0" layoutY="566.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" * * * * * " wrappingWidth="198.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button layoutX="9.0" layoutY="675.0" mnemonicParsing="false" onMouseClicked="#OpenDeveloperMessageScene" opacity="0.88" prefHeight="35.0" prefWidth="198.0" text="我 的 信 息" textFill="#88ae28">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="437.0" layoutY="675.0" mnemonicParsing="false" onMouseClicked="#OpenDeveloperFeedbackNoteScene" opacity="0.88" prefHeight="35.0" prefWidth="205.0" text="我 的 反 馈" textFill="#88ae28">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="875.0" layoutY="675.0" mnemonicParsing="false" onMouseClicked="#ReturnDeveloperScene" opacity="0.88" prefHeight="35.0" prefWidth="198.0" text="返         回" textFill="#88ae28">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Separator layoutX="506.0" layoutY="350.0" prefHeight="20.0" prefWidth="576.0" rotate="90.0" />
+      <Button layoutX="656.0" layoutY="675.0" mnemonicParsing="false" onMouseClicked="#OpenUploadNoteScene" opacity="0.88" prefHeight="35.0" prefWidth="205.0" text="我 的 上 传" textFill="#88ae28">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="218.0" layoutY="675.0" mnemonicParsing="false" opacity="0.88" prefHeight="35.0" prefWidth="205.0" text="更 改 信 息" textFill="#88ae28">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Polyline layoutX="325.0" layoutY="53.0" rotate="-48.0" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5825242718446602" startY="0.24757281553398058">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+      <Polyline layoutX="744.0" layoutY="62.0" rotate="40.8" stroke="#eef52c" strokeType="INSIDE" strokeWidth="2.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5825242718446602" startY="0.24757281553398058">
+               <stops>
+                  <Stop color="#76fa4394" />
+                  <Stop color="#e1e42a" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-40.0" />
+         </points>
+      </Polyline>
+   </children>
+</Pane>
